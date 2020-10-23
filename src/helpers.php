@@ -1,13 +1,11 @@
 <?php
 
-
-
 function upper($value)
 {
-    return Format::upperText($value);
+    return Text\Format::upperText($value);
 }
 
 function lower($value)
 {
-    return Format::lowerText($value);
+    return Text\Format::lowerText($value);
 }
