@@ -1,0 +1,22 @@
+{
+  "name": "eduerpj/fundamentos-php",
+  "description": "Repaso los fundamentos de PHP",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "EduerPJ",
+      "email": "eduerpj@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Text\\": "src/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  }
+}
